@@ -14,6 +14,11 @@
 		1D3852CE1C63DAD9007EDE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3852CC1C63DAD9007EDE91 /* LaunchScreen.storyboard */; };
 		1D3852D91C63DAD9007EDE91 /* bubblewrap2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3852D81C63DAD9007EDE91 /* bubblewrap2Tests.swift */; };
 		1D3852E41C63DAD9007EDE91 /* bubblewrap2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3852E31C63DAD9007EDE91 /* bubblewrap2UITests.swift */; };
+		1D3852F21C63DB2D007EDE91 /* DeepPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3852F11C63DB2D007EDE91 /* DeepPressGestureRecognizer.swift */; };
+		1D3852F61C63DE87007EDE91 /* TapticEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3852F51C63DE87007EDE91 /* TapticEngine.m */; };
+		1D3852FA1C63DEDC007EDE91 /* UIDevice+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3852F91C63DEDC007EDE91 /* UIDevice+Private.m */; };
+		1D3853001C63E5D6007EDE91 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3852FF1C63E5D6007EDE91 /* ghost.png */; };
+		1D3853041C63E606007EDE91 /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3853031C63E606007EDE91 /* pumpkin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,15 @@
 		1D3852DF1C63DAD9007EDE91 /* bubblewrap2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bubblewrap2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3852E31C63DAD9007EDE91 /* bubblewrap2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubblewrap2UITests.swift; sourceTree = "<group>"; };
 		1D3852E51C63DAD9007EDE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3852F11C63DB2D007EDE91 /* DeepPressGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepPressGestureRecognizer.swift; sourceTree = "<group>"; };
+		1D3852F41C63DE87007EDE91 /* bubblewrap2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bubblewrap2-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D3852F51C63DE87007EDE91 /* TapticEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapticEngine.m; sourceTree = "<group>"; };
+		1D3852F71C63DE97007EDE91 /* TapticEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapticEngine.h; sourceTree = "<group>"; };
+		1D3852F91C63DEDC007EDE91 /* UIDevice+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Private.m"; sourceTree = "<group>"; };
+		1D3852FB1C63DEF9007EDE91 /* UIDevice+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Private.h"; sourceTree = "<group>"; };
+		1D3852FC1C63DF0A007EDE91 /* UITapticEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITapticEngine.h; sourceTree = "<group>"; };
+		1D3852FF1C63E5D6007EDE91 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		1D3853031C63E606007EDE91 /* pumpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpkin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,8 @@
 		1D3852B71C63DAD9007EDE91 = {
 			isa = PBXGroup;
 			children = (
+				1D3852F81C63DEC4007EDE91 /* Headers */,
+				1D3852F31C63DE5B007EDE91 /* Taptic */,
 				1D3852C21C63DAD9007EDE91 /* bubblewrap2 */,
 				1D3852D71C63DAD9007EDE91 /* bubblewrap2Tests */,
 				1D3852E21C63DAD9007EDE91 /* bubblewrap2UITests */,
@@ -97,10 +113,13 @@
 		1D3852C21C63DAD9007EDE91 /* bubblewrap2 */ = {
 			isa = PBXGroup;
 			children = (
+				1D3852F11C63DB2D007EDE91 /* DeepPressGestureRecognizer.swift */,
 				1D3852C31C63DAD9007EDE91 /* AppDelegate.swift */,
 				1D3852C51C63DAD9007EDE91 /* ViewController.swift */,
 				1D3852C71C63DAD9007EDE91 /* Main.storyboard */,
 				1D3852CA1C63DAD9007EDE91 /* Assets.xcassets */,
+				1D3852FF1C63E5D6007EDE91 /* ghost.png */,
+				1D3853031C63E606007EDE91 /* pumpkin.png */,
 				1D3852CC1C63DAD9007EDE91 /* LaunchScreen.storyboard */,
 				1D3852CF1C63DAD9007EDE91 /* Info.plist */,
 			);
@@ -123,6 +142,26 @@
 				1D3852E51C63DAD9007EDE91 /* Info.plist */,
 			);
 			path = bubblewrap2UITests;
+			sourceTree = "<group>";
+		};
+		1D3852F31C63DE5B007EDE91 /* Taptic */ = {
+			isa = PBXGroup;
+			children = (
+				1D3852F71C63DE97007EDE91 /* TapticEngine.h */,
+				1D3852F51C63DE87007EDE91 /* TapticEngine.m */,
+				1D3852F41C63DE87007EDE91 /* bubblewrap2-Bridging-Header.h */,
+			);
+			name = Taptic;
+			sourceTree = "<group>";
+		};
+		1D3852F81C63DEC4007EDE91 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1D3852FC1C63DF0A007EDE91 /* UITapticEngine.h */,
+				1D3852FB1C63DEF9007EDE91 /* UIDevice+Private.h */,
+				1D3852F91C63DEDC007EDE91 /* UIDevice+Private.m */,
+			);
+			name = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3852CE1C63DAD9007EDE91 /* LaunchScreen.storyboard in Resources */,
+				1D3853001C63E5D6007EDE91 /* ghost.png in Resources */,
+				1D3853041C63E606007EDE91 /* pumpkin.png in Resources */,
 				1D3852CB1C63DAD9007EDE91 /* Assets.xcassets in Resources */,
 				1D3852C91C63DAD9007EDE91 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3852F61C63DE87007EDE91 /* TapticEngine.m in Sources */,
+				1D3852FA1C63DEDC007EDE91 /* UIDevice+Private.m in Sources */,
+				1D3852F21C63DB2D007EDE91 /* DeepPressGestureRecognizer.swift in Sources */,
 				1D3852C61C63DAD9007EDE91 /* ViewController.swift in Sources */,
 				1D3852C41C63DAD9007EDE91 /* AppDelegate.swift in Sources */,
 			);
@@ -402,10 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = bubblewrap2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = john.bubblewrap2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bubblewrap2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +460,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = bubblewrap2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = john.bubblewrap2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bubblewrap2-Bridging-Header.h";
 			};
 			name = Release;
 		};
