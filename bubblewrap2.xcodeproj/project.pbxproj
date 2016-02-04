@@ -19,6 +19,9 @@
 		1D3852FA1C63DEDC007EDE91 /* UIDevice+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3852F91C63DEDC007EDE91 /* UIDevice+Private.m */; };
 		1D3853001C63E5D6007EDE91 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3852FF1C63E5D6007EDE91 /* ghost.png */; };
 		1D3853041C63E606007EDE91 /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3853031C63E606007EDE91 /* pumpkin.png */; };
+		1D3853061C641942007EDE91 /* bubb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3853051C641942007EDE91 /* bubb.png */; };
+		1D38530A1C641A2A007EDE91 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3853091C641A2A007EDE91 /* unnamed.png */; };
+		1D38530C1C641A6F007EDE91 /* bubb2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D38530B1C641A6F007EDE91 /* bubb2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		1D3852FC1C63DF0A007EDE91 /* UITapticEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITapticEngine.h; sourceTree = "<group>"; };
 		1D3852FF1C63E5D6007EDE91 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
 		1D3853031C63E606007EDE91 /* pumpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpkin.png; sourceTree = "<group>"; };
+		1D3853051C641942007EDE91 /* bubb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubb.png; sourceTree = "<group>"; };
+		1D3853091C641A2A007EDE91 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		1D38530B1C641A6F007EDE91 /* bubb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubb2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +125,10 @@
 				1D3852C71C63DAD9007EDE91 /* Main.storyboard */,
 				1D3852CA1C63DAD9007EDE91 /* Assets.xcassets */,
 				1D3852FF1C63E5D6007EDE91 /* ghost.png */,
+				1D3853091C641A2A007EDE91 /* unnamed.png */,
 				1D3853031C63E606007EDE91 /* pumpkin.png */,
+				1D3853051C641942007EDE91 /* bubb.png */,
+				1D38530B1C641A6F007EDE91 /* bubb2.png */,
 				1D3852CC1C63DAD9007EDE91 /* LaunchScreen.storyboard */,
 				1D3852CF1C63DAD9007EDE91 /* Info.plist */,
 			);
@@ -272,9 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3852CE1C63DAD9007EDE91 /* LaunchScreen.storyboard in Resources */,
+				1D38530C1C641A6F007EDE91 /* bubb2.png in Resources */,
 				1D3853001C63E5D6007EDE91 /* ghost.png in Resources */,
+				1D3853061C641942007EDE91 /* bubb.png in Resources */,
 				1D3853041C63E606007EDE91 /* pumpkin.png in Resources */,
 				1D3852CB1C63DAD9007EDE91 /* Assets.xcassets in Resources */,
+				1D38530A1C641A2A007EDE91 /* unnamed.png in Resources */,
 				1D3852C91C63DAD9007EDE91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
