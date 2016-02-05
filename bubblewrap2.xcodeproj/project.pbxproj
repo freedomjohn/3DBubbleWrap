@@ -21,7 +21,15 @@
 		1D3853041C63E606007EDE91 /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3853031C63E606007EDE91 /* pumpkin.png */; };
 		1D3853061C641942007EDE91 /* bubb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3853051C641942007EDE91 /* bubb.png */; };
 		1D38530A1C641A2A007EDE91 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3853091C641A2A007EDE91 /* unnamed.png */; };
-		1D38530C1C641A6F007EDE91 /* bubb2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D38530B1C641A6F007EDE91 /* bubb2.png */; };
+		1D38530E1C641C71007EDE91 /* bubb2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D38530D1C641C71007EDE91 /* bubb2.png */; };
+		1DC5C2801C65272100D21C04 /* bubble2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5C27F1C65272100D21C04 /* bubble2.wav */; };
+		1DC5C2821C652C9000D21C04 /* bubble3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5C2811C652C9000D21C04 /* bubble3.wav */; };
+		1DC5C2841C65373400D21C04 /* bu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5C2831C65373400D21C04 /* bu1.png */; };
+		1DC5C2861C65373B00D21C04 /* bu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5C2851C65373B00D21C04 /* bu2.png */; };
+		1DC5C2881C65374000D21C04 /* bu3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5C2871C65374000D21C04 /* bu3.png */; };
+		1DC5C28C1C653C8400D21C04 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5C28B1C653C8400D21C04 /* firstView.swift */; };
+		1DC5C2901C65580500D21C04 /* pumpkinsmash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5C28F1C65580500D21C04 /* pumpkinsmash.mp3 */; };
+		1DC5C2921C65585700D21C04 /* pumpkinsmash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5C2911C65585700D21C04 /* pumpkinsmash.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +74,15 @@
 		1D3853031C63E606007EDE91 /* pumpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpkin.png; sourceTree = "<group>"; };
 		1D3853051C641942007EDE91 /* bubb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubb.png; sourceTree = "<group>"; };
 		1D3853091C641A2A007EDE91 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
-		1D38530B1C641A6F007EDE91 /* bubb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubb2.png; sourceTree = "<group>"; };
+		1D38530D1C641C71007EDE91 /* bubb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubb2.png; sourceTree = "<group>"; };
+		1DC5C27F1C65272100D21C04 /* bubble2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble2.wav; sourceTree = "<group>"; };
+		1DC5C2811C652C9000D21C04 /* bubble3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble3.wav; sourceTree = "<group>"; };
+		1DC5C2831C65373400D21C04 /* bu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bu1.png; sourceTree = "<group>"; };
+		1DC5C2851C65373B00D21C04 /* bu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bu2.png; sourceTree = "<group>"; };
+		1DC5C2871C65374000D21C04 /* bu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bu3.png; sourceTree = "<group>"; };
+		1DC5C28B1C653C8400D21C04 /* firstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		1DC5C28F1C65580500D21C04 /* pumpkinsmash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pumpkinsmash.mp3; sourceTree = "<group>"; };
+		1DC5C2911C65585700D21C04 /* pumpkinsmash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pumpkinsmash.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,14 +137,22 @@
 			children = (
 				1D3852F11C63DB2D007EDE91 /* DeepPressGestureRecognizer.swift */,
 				1D3852C31C63DAD9007EDE91 /* AppDelegate.swift */,
+				1DC5C28B1C653C8400D21C04 /* firstView.swift */,
 				1D3852C51C63DAD9007EDE91 /* ViewController.swift */,
 				1D3852C71C63DAD9007EDE91 /* Main.storyboard */,
 				1D3852CA1C63DAD9007EDE91 /* Assets.xcassets */,
 				1D3852FF1C63E5D6007EDE91 /* ghost.png */,
 				1D3853091C641A2A007EDE91 /* unnamed.png */,
+				1D38530D1C641C71007EDE91 /* bubb2.png */,
+				1DC5C2811C652C9000D21C04 /* bubble3.wav */,
 				1D3853031C63E606007EDE91 /* pumpkin.png */,
+				1DC5C2831C65373400D21C04 /* bu1.png */,
+				1DC5C2851C65373B00D21C04 /* bu2.png */,
+				1DC5C2911C65585700D21C04 /* pumpkinsmash.wav */,
+				1DC5C2871C65374000D21C04 /* bu3.png */,
+				1DC5C28F1C65580500D21C04 /* pumpkinsmash.mp3 */,
 				1D3853051C641942007EDE91 /* bubb.png */,
-				1D38530B1C641A6F007EDE91 /* bubb2.png */,
+				1DC5C27F1C65272100D21C04 /* bubble2.wav */,
 				1D3852CC1C63DAD9007EDE91 /* LaunchScreen.storyboard */,
 				1D3852CF1C63DAD9007EDE91 /* Info.plist */,
 			);
@@ -280,14 +304,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC5C2821C652C9000D21C04 /* bubble3.wav in Resources */,
 				1D3852CE1C63DAD9007EDE91 /* LaunchScreen.storyboard in Resources */,
-				1D38530C1C641A6F007EDE91 /* bubb2.png in Resources */,
+				1DC5C2921C65585700D21C04 /* pumpkinsmash.wav in Resources */,
+				1D38530E1C641C71007EDE91 /* bubb2.png in Resources */,
+				1DC5C2861C65373B00D21C04 /* bu2.png in Resources */,
+				1DC5C2801C65272100D21C04 /* bubble2.wav in Resources */,
 				1D3853001C63E5D6007EDE91 /* ghost.png in Resources */,
 				1D3853061C641942007EDE91 /* bubb.png in Resources */,
+				1DC5C2841C65373400D21C04 /* bu1.png in Resources */,
 				1D3853041C63E606007EDE91 /* pumpkin.png in Resources */,
 				1D3852CB1C63DAD9007EDE91 /* Assets.xcassets in Resources */,
 				1D38530A1C641A2A007EDE91 /* unnamed.png in Resources */,
 				1D3852C91C63DAD9007EDE91 /* Main.storyboard in Resources */,
+				1DC5C2901C65580500D21C04 /* pumpkinsmash.mp3 in Resources */,
+				1DC5C2881C65374000D21C04 /* bu3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3852F61C63DE87007EDE91 /* TapticEngine.m in Sources */,
+				1DC5C28C1C653C8400D21C04 /* firstView.swift in Sources */,
 				1D3852FA1C63DEDC007EDE91 /* UIDevice+Private.m in Sources */,
 				1D3852F21C63DB2D007EDE91 /* DeepPressGestureRecognizer.swift in Sources */,
 				1D3852C61C63DAD9007EDE91 /* ViewController.swift in Sources */,
@@ -548,6 +580,7 @@
 				1D3852EA1C63DAD9007EDE91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3852EB1C63DAD9007EDE91 /* Build configuration list for PBXNativeTarget "bubblewrap2Tests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +589,7 @@
 				1D3852ED1C63DAD9007EDE91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3852EE1C63DAD9007EDE91 /* Build configuration list for PBXNativeTarget "bubblewrap2UITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +598,7 @@
 				1D3852F01C63DAD9007EDE91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
